@@ -1,0 +1,5 @@
+bikestuple=("bullet","ninja","honda","bajaj","bullet","spendor","yamaha")
+y=list(bikestuple)
+y.remove("ninja")
+x=tuple(y)
+print(x)
