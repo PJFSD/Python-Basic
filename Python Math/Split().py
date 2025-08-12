@@ -1,0 +1,7 @@
+# Splite at each white-space character
+
+import re
+
+txt = "The rain in spain"
+x = re.split("\s",txt)
+print(x)
